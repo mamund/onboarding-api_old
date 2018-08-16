@@ -1,0 +1,26 @@
+{
+  "home": {
+    "actions": [
+      {
+        "name": "dashboard",
+        "href": "http://localhost:8282/",
+        "rel": [
+          "home",
+          "dashboard"
+        ],
+        "method": "GET"
+      },
+      {
+        "name": "customer",
+        "href": "http://localhost:8282/customer/",
+        "rel": [
+          "collection",
+          "customer"
+        ],
+        "method": "GET"
+      }
+    ],
+    "data": []
+  },
+  "self": "http://localhost:8282"
+}
